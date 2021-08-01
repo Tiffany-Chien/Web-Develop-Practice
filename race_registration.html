@@ -32,20 +32,20 @@
       <label for="fullMarathon">Full Marathon</label>
     </div>
 
-    <label for="email">Email</label>
+    <label for="email">Email</label required>
     <input type="email" id="email" name="email">
     <label for="password">Password</label>
-    <input type="password" id="password" name="password">
+    <input type="password" id="password" name="password" required>
 
     <div>
       <label for="age">Select Age Group</label>
-      <select id="age">
-        <option value="under18">under 18</option>
-        <option value="18-30">18-30</option>
+      <select id="age" name="age">
+        <option value="kids">under 18</option>
+        <option value="youngAdults">18-30</option>
       </select>
     </div>
     <div>
-      <input type="submit" value="Register!">
+      <button>Register!</button>
     </div>
   </form>
 
