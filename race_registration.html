@@ -5,11 +5,47 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Race Registration Form</title>
 </head>
 
 <body>
-  <p1>Race Registration!</p1>
+  <h1>Race Registration!</h1>
+  <label for="first_name">First Name</label>
+  <input type="text" id="first_name" name="first_name" required>
+  <label for="last_name">Last Name</label>
+  <input type="text" id="last_name" name="last_name" required>
+
+  <p>Select a Race:</p>
+  <div>
+    <input type="radio" id="FunRun5k" name="race">
+    <label for="FunRun5k">Fun Run 5k</label>
+  </div>
+
+  <div>
+    <input type="radio" id="halfMarathon" name="race">
+    <label for="halfMarathon">Half Marathon</label>
+  </div>
+
+  <div>
+    <input type="radio" id="fullMarathon" name="race">
+    <label for="fullMarathon">Full Marathon</label>
+  </div>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email">
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password">
+
+  <div>
+    <label for="age">Select Age Group</label>
+    <select id="age">
+      <option value="under18">under 18</option>
+    </select>
+
+  </div>
+
+
+
 
 </body>
 
