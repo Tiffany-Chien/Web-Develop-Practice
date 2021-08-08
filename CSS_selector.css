@@ -1,0 +1,24 @@
+/* Universal selector */
+/* * {
+  color: pink;
+} */
+
+body {
+  background-color: #f1faee;
+}
+
+button {
+  font-size: 30px;
+  background-color: #a8dadc;
+}
+
+h1,
+h2 {
+  color: darkblue;
+}
+
+/* Use #id to hook on items */
+#signup {
+  background-color: #1d3557;
+  color: white;
+}
