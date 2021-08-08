@@ -1,3 +1,17 @@
+/* selector { 
+  property: value;
+} */
+/* background-color: is different from background */
 h2 {
   color: teal;
+  background-color: plum;
+}
+
+button {
+  color: magenta;
+  background-color: cyan;
+}
+
+p {
+  color: olive;
 }
