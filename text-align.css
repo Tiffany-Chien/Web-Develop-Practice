@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  font-weight: 400;
+  text-decoration: blueviolet underline wavy;
+  letter-spacing: 10px;
+}
+
+/* Anchor tags */
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
