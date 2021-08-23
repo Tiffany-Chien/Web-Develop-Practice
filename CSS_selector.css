@@ -22,3 +22,23 @@ h2 {
   background-color: #1d3557;
   color: white;
 }
+
+span {
+  color: #457b9d;
+}
+
+/* Class selector */
+.tag {
+  background-color: #a8dadc;
+  color: #f1faee;
+  font-size: 16px;
+}
+
+/* Select all <a>'s that are nested in an post class */
+.post a {
+  color: #1d3557;
+}
+
+footer a {
+  color: red;
+}
