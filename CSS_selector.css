@@ -42,3 +42,16 @@ span {
 footer a {
   color: red;
 }
+
+/* Direct level children */
+div > li {
+  color: white;
+}
+
+input[type="password"] {
+  color: pink;
+}
+
+a[href*="google"] {
+  color: purple;
+}
